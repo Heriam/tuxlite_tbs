@@ -5,7 +5,7 @@
     <h2 class="content-title">Category: {{ category }}</h2>
     <table class="table">
     <tbody>
-    {% for article in category.articles %}
+    {% for article in articles %}
         <tr>
         <td>{{ article.date.strftime("%d %b %Y") }}</td>
         <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
