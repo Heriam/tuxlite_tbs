@@ -76,34 +76,6 @@
         
         <div class="span3">
 
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Site
-                </li>
-            
-                <li><a href="{{ SITEURL }}/archives.html">Archives</a>
-                <li><a href="{{ SITEURL }}/tags.html">Tags</a>
-
-
-
-                {% if FEED_ALL_ATOM %}
-                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom feed</a></li>
-                {% endif %}
-                {% if FEED_ATOM %}
-                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate">Atom feed</a></li>
-                {% endif %}
-                {% if FEED_RSS %}
-                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
-                {% endif %}
-                {% if FEED_ALL_RSS %}
-                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate">RSS feed</a></li>
-                {% endif %}
-
-            </ul>
-            </div>
-
-
             {% if categories %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
