@@ -1,9 +1,20 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} - Tags{% endblock %}
 {% block content %}
-<ul>
-{% for tag, articles in tags|sort %}
-    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
-{% endfor %}
-</ul>
+<script src="{{ SITEURL }}/theme/jqcloud/jqcloud.js"></script>
+<link href="{{ SITEURL }}/theme/jqcloud/jqcloud.css" rel="stylesheet">
+<script>
+    var words = [];
+    {% for tag, articles in tags|sort %}
+        words.push({text: "{{tag}}", weight: Math.random(), link: '{{ SITEURL }}/{{ tag.url }}'});
+    {% endfor %}
+    {% for category, articles in categories %}
+        words.push({text: "{{category}}", weight: Math.random(), link: '{{ SITEURL }}/{{ category.url }}'});
+    {% endfor %}
+    $(function() {
+        $("#tagcloud").jQCloud(words, {
+            autoResize: true
+        }); 
+    });
+</script>
 {% endblock %}
