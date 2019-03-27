@@ -5,7 +5,7 @@
 <link href="{{ SITEURL }}/theme/jqcloud/jqcloud.css" rel="stylesheet">
 <script>
     var words = [];
-    {% for tag, articles in tags|sort %}
+    {% for tag, articles in tags %}
         words.push({text: "{{tag}}", weight: Math.random(), link: '{{ SITEURL }}/{{ tag.url }}'});
     {% endfor %}
     {% for category, articles in categories %}
@@ -17,7 +17,8 @@
         }); 
     });
 </script>
-<section id="content" class="body">    
+<section id="content" class="body">
+	<h2 class="content-title">Archives</h2>
     <div id="tagcloud" style="width: 80%; height: 450px; align-self: center;"></div>
 </section>
 {% endblock %}
