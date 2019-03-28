@@ -6,7 +6,13 @@
             <h1>{{ article.title }}</h1>
             {% include "metadata.html" %}
         </div>
-	
+		
+		{% if article.toc %}
+			<nav class="toc">
+			{{ article.toc }}
+			</nav>
+		{% endif %}
+		
         <div>{{ article.content }}</div>
 	
         <hr>
