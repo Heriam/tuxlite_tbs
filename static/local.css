@@ -94,6 +94,11 @@ h3 { margin-top: 2.5em; }
 	font-family: "Times New Roman";
 }
 
+.mainTitle {
+  font-size: 26px;
+  font-weight: 500;
+}
+
 .subTitle {
 	color: #666;
     font-size: 20px;
@@ -101,6 +106,12 @@ h3 { margin-top: 2.5em; }
     font-weight: 300;
     line-height: 18px;
     display: block!important;
+}
+
+.motto {
+    margin-top: 26px;
+    line-height: normal;
+    font-weight: 300;
 }
 
 .metadata {
