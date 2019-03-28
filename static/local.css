@@ -84,6 +84,10 @@ h3 { margin-top: 2.5em; }
 	-webkit-box-orient: horizontal;
 	-webkit-box-pack: center;
 	-webkit-box-align: center;
+  border-radius: 300px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .timesfont {
@@ -96,11 +100,7 @@ h3 { margin-top: 2.5em; }
     font-style: normal;
     font-weight: 300;
     line-height: 18px;
-    display: block;
-	border-radius: 300px;
-    width: 150px;
-    height: 150px;
-	overflow: hidden;
+    display: block!important;
 }
 
 .metadata {
