@@ -89,3 +89,12 @@ h3 { margin-top: 2.5em; }
 .timesfont {
 	font-family: "Times New Roman";
 }
+
+.subTitle {
+	color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    display: block;
+}
