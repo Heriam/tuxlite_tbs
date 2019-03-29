@@ -84,10 +84,10 @@ h3 { margin-top: 2.5em; }
 	-webkit-box-orient: horizontal;
 	-webkit-box-pack: center;
 	-webkit-box-align: center;
-  border-radius: 300px;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+	border-radius: 300px;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
 }
 
 .timesfont {
@@ -95,8 +95,8 @@ h3 { margin-top: 2.5em; }
 }
 
 .mainTitle {
-  font-size: 26px;
-  font-weight: 500;
+	font-size: 26px;
+	font-weight: 500;
 }
 
 .subTitle {
@@ -109,14 +109,20 @@ h3 { margin-top: 2.5em; }
 }
 
 .motto {
-    margin-top: 26px;
+    margin-top: 20px;
     line-height: normal;
     font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.listIcon {
+	margin-right: 4px;
+	vertical-align: -3px;
 }
 
 .metadata {
 	color: #666;
-  font-size: 12px;
+	font-size: 12px;
 }
 
 .toctitle {
