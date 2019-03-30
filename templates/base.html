@@ -103,20 +103,6 @@
                 </div>
             </div>
 
-            {% if categories %}
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Categories
-                </li>
-                
-                {% for cat, null in categories %}
-                <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}                   
-            </ul>
-            </div>
-            {% endif %}
-
         </div> {# End span3 #} 
     </div> {# End row #}
     </div> {# End content #}
