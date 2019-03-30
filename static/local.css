@@ -112,6 +112,13 @@ h3 { margin-top: 2.5em; }
 	margin-bottom: 20px;
 }
 
+.biography {
+  list-style: none;
+  margin:0 auto;
+  font-size: 14px;
+  color: #666;
+}
+
 .listIcon {
 	margin-right: 6px;
 	vertical-align: -3px;
