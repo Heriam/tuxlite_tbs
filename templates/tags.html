@@ -8,9 +8,6 @@
     {% for tag, articles in tags|sort %}
         words.push({text: "{{tag}}", weight: Math.random(), link: '{{ SITEURL }}/{{ tag.url }}'});
     {% endfor %}
-    {% for category, articles in categories %}
-        words.push({text: "{{category}}", weight: Math.random(), link: '{{ SITEURL }}/{{ category.url }}'});
-    {% endfor %}
     $(function() {
         $("#tagcloud").jQCloud(words, {
             autoResize: true
