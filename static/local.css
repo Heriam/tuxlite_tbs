@@ -197,6 +197,7 @@ h3 { margin-top: 2.5em; }
 .tooltip {
     position: relative;
     display: inline-block;
+    opacity: 1;
 }
 
 .tooltip .tooltiptext {
