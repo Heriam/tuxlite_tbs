@@ -197,22 +197,21 @@ h3 { margin-top: 2.5em; }
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 80px;
-    background-color: rgba(0,0,0,0.7);
+    width: 60px;
+    background-color: #2E435E;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 7px 0;
     position: absolute;
     z-index: 1;
-    bottom: 150%;
+    bottom: 130%;
     left: 50%;
-    margin-left: -40px;
+    margin-left: -30px;
 }
 
 .tooltip .tooltiptext::after {
@@ -223,9 +222,22 @@ h3 { margin-top: 2.5em; }
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: #2E435E transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.socialLink {
+	
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	overflow: hidden;
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 }
