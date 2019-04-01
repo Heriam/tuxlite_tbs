@@ -230,10 +230,9 @@ h3 { margin-top: 2.5em; }
 }
 
 .socialLink {
-	
 	width: 32px;
 	height: 32px;
-	border-radius: 16px;
+	border-radius: 50%;
 	overflow: hidden;
 	position: relative;
 	display: -webkit-box;
