@@ -140,7 +140,7 @@ h3, h4, h5 { margin-top: 2.5em; }
     color: #999
 }
 
-.dropdown-content {
+.dropdown-content-jh {
     display: none;
     list-style:none;
     position: absolute;
@@ -150,16 +150,16 @@ h3, h4, h5 { margin-top: 2.5em; }
     min-width:120px;
 }
 
-.dropdown-content a {
+.dropdown-content-jh a {
     color: #666;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content-jh a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
+.dropdown-jh:hover .dropdown-content-jh {
     display: block;
 }
 

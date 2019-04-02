@@ -53,8 +53,8 @@
         <div class="nav-collapse">
         <ul class="nav">
         {% if DISPLAY_CATEGORIES_ON_MENU %}
-            <li class="dropdown"><a>Categories</a>
-                <ul class="dropdown-content">
+            <li class="dropdown-jh"><a>Categories</a>
+                <ul class="dropdown-content-jh">
                 {% for cat, null in categories %}
                     <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
