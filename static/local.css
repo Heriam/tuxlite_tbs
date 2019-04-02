@@ -140,6 +140,11 @@ h3, h4, h5 { margin-top: 2.5em; }
     color: #999
 }
 
+.dropdown-jh {
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown-content-jh {
     display: none;
     list-style:none;
