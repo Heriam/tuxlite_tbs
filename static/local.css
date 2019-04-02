@@ -149,7 +149,8 @@ h3, h4, h5 { margin-top: 2.5em; }
 .dropdown-content-jh {
     display: none;
     list-style:none;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: -100vw;
 }
 
 .dropdown-content-jh a {
