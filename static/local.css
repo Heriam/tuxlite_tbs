@@ -153,6 +153,7 @@ h3, h4, h5 { margin-top: 2.5em; }
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin: 0 auto;
     min-width:120px;
+	float: left;
 }
 
 .dropdown-content-jh a {
@@ -165,7 +166,7 @@ h3, h4, h5 { margin-top: 2.5em; }
 .dropdown-content-jh a:hover {background-color: #f1f1f1}
 
 .dropdown-jh:hover .dropdown-content-jh {
-    display: block;
+    display: flex;
 }
 
 #scroll {
