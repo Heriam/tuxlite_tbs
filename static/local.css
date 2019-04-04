@@ -10,8 +10,8 @@
 
 .navbar .nav > li > a { color: #fff; font-size: 14px; margin: 10px 20px 11px; padding: 0 0;}
 .navbar .divider-vertical { border-right: 1px solid #4D4D4D; }
-.navbar { margin-bottom: 4em; position: fixed; width: 100%; z-index: 9999;} 
-
+.navbar { position: fixed; width: 100%; z-index: 9999;} 
+.content {margin-top: 6em;}
 
 /* Styling for elements */
 body { font-size: 16px; }
