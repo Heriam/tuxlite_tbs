@@ -2,7 +2,7 @@
 .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgba(45,45,45,0.95);
+  background-color: rgba(45,45,45,0.98);
   background-repeat: repeat-x;
   border-radius: 0px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -134,7 +134,7 @@ h3, h4, h5 { margin-top: 2.5em; }
     list-style:none;
     margin-left: -100vw;
     margin-right: -100vw;
-    background-color: rgba(251, 251, 251, 0.95);
+    background-color: #fbfbfb;
     padding-left: 100vw;
 }
 
@@ -160,7 +160,7 @@ h3, h4, h5 { margin-top: 2.5em; }
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#2E435E;
+    background-color:rgba(45,45,45,0.98);
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:5px;
