@@ -90,7 +90,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_bold
 {
-     font-weight: 400;
+     font-weight: 600;
      color: red;
 }
 .tipue_search_note a
@@ -181,7 +181,7 @@ http://www.tipue.com/search
 }
 .tipue_search_result
 {
-     padding-top: 21px;
+     padding-top: 26px;
 }
 #tipue_search_results_count
 {
