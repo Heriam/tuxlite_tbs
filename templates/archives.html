@@ -4,20 +4,21 @@
 
 <section id="content" class="body">    
     <h1 class="content-title">Archives</h1>
-    <table class="table">
-    <tbody>
     {% if articles %}
     {% for article in articles_page.object_list %}        
 
     {# First item #}
     {% if loop.first and not articles_page.has_previous() %}
-
+    <table class="table">
+    <tbody>
         <tr>
         <td>{{ article.date.strftime("%d %b %Y") }}</td>
         <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
         </tr>
             
         {% if loop.length == 1 %}
+            </tbody>
+            </table>
             {% include 'pagination.html' %}
         {% endif %}
 
@@ -30,6 +31,8 @@
         </tr>
                     
         {% if loop.last and (articles_page.has_previous() or not articles_page.has_previous() and loop.length > 1) %}
+            </tbody>
+            </table>
             {% include 'pagination.html' %}
         {% endif %}
 
@@ -37,8 +40,6 @@
 
     {% endfor %} {# For article #}
     {% endif %} {# If articles #}
-    </tbody>
-    </table>
 </section>
 
 {% endblock content %}
