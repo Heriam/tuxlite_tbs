@@ -3,12 +3,12 @@
 {% block content %}
 <section id="content" class="body">    
     <h1 class="content-title">Archives</h1>
+    <table class="table">
+    <tbody>
     {% if articles %}
     {% for article in articles_page.object_list %}        
     {# First item #}
     {% if loop.first and not articles_page.has_previous() %}
-    <table class="table">
-    <tbody>
         <tr>
         <td>{{ article.date.strftime("%d %b %Y") }}</td>
         <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
