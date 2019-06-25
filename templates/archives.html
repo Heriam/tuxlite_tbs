@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} - Archives{% endblock %}
 {% block content %}
-
 <section id="content" class="body">    
     <h1 class="content-title">Archives</h1>
     {% if articles %}
@@ -31,7 +30,6 @@
             {% include 'pagination.html' %}
         {% endif %}
     {% endif %} {# First item if #}
-
     {% endfor %} {# For article #}
     {% endif %} {# If articles #}
 </section>
