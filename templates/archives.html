@@ -6,10 +6,33 @@
     <table class="table">
     <tbody>
     {% for article in dates %}
-        <tr>
-        <td>{{ article.date.strftime("%d %b %Y") }}</td>
-        <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
-        </tr>
+
+        {# First item #}
+        {% if loop.first and not articles_page.has_previous() %}
+
+            <tr>
+            <td>{{ article.date.strftime("%d %b %Y") }}</td>
+            <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
+            </tr>
+                
+            {% if loop.length == 1 %}
+                {% include 'pagination.html' %}
+            {% endif %}
+
+        {# other items #}
+        {% else %} 
+
+            <tr>
+            <td>{{ article.date.strftime("%d %b %Y") }}</td>
+            <td><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
+            </tr>
+                        
+            {% if loop.last and (articles_page.has_previous() or not articles_page.has_previous() and loop.length > 1) %}
+                {% include 'pagination.html' %}
+            {% endif %}
+
+        {% endif %} {# First item if #}
+
     {% endfor %}
     </tbody>
 	</table>
