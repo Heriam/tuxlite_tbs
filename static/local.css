@@ -18,6 +18,7 @@ body { font-size: 16px; }
 p { font-size: 16px; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
 h2 { margin-top: 2.5em; }
+footer p {font-size: 12px;}
 .table th, .table td { line-height: 1.3em; }
 
 /* Styling for articles */
