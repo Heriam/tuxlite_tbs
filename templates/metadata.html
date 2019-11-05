@@ -17,4 +17,10 @@ Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category
 {% if article.tags %} 
     Tags: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>,&nbsp;{% endfor %}
 {% endif %}
+<hr />
+{% if article.original %}
+<br />
+版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+本文链接：{{ article.url }}
+{% endif %}
 </span>
