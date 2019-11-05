@@ -17,7 +17,7 @@
 body { font-size: 16px; }
 p { font-size: 16px; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
-h2 { margin-top: 2.5em; }
+h2 { margin-top: 1.5em; }
 footer p {font-size: 12px;}
 .table th, .table td { line-height: 1.3em; }
 
@@ -118,7 +118,7 @@ footer p {font-size: 12px;}
 }
 
 .toctitle {
-    margin: 2.5em 0 20px 0;
+    margin: 1.5em 0 20px 0;
     font-size:24px;
     line-height:36px;
     border-left: 3px solid #08c;
