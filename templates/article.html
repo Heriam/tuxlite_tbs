@@ -6,19 +6,23 @@
             <h1>{{ article.title }}</h1>
             {% include "metadata.html" %}
         </div>
-		
-		{% if article.toc %}
+
 		<hr />
+
+		{% if article.toc %}
 			<nav class="toc">
 			{{ article.toc }}
 			</nav>
+
+			<hr />
+
 		{% endif %}
-		
-		<hr />
+
 		<br />
+
         <div>{{ article.content }}</div>
 	
-        <hr>
+        <hr />
 
 	{% include "twitter.html" %}
     {% include "gitalk.html" %}
