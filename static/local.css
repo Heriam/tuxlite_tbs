@@ -26,7 +26,11 @@ footer p {font-size: 12px;}
 /*.content-title { margin-bottom: 30px; }*/
 .article a:hover { text-decoration: none; } 
 
-
+.copyright-claim p {
+    font-size:12px;
+    vertical-align:text-bottom;
+    color: #4d4d4d;
+}
 
 /* Styling for the "other entries" section */
 /* Metadata */

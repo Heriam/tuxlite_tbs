@@ -6,12 +6,14 @@
             <h1>{{ article.title }}</h1>
             {% include "metadata.html" %}
         </div>
+
+        <hr />
+
         <div class="copyright-claim">
     		<p>版权声明：本文为博主原创文章，遵循<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC 4.0 BY-SA </a>版权协议，转载请附上原文出处链接和本声明。</p>
-    		<p>本文链接：<a href="{{ article.url }}">{{ article.url }}</a></p>
+    		<p>本文链接：<a href="{{ SITEURL }}/{{ article.url }}">{{ SITEURL }}/{{ article.url }}</a></p>
         </div>
-		<hr />
-
+        
 		{% if article.toc %}
 			<nav class="toc">
 			{{ article.toc }}
