@@ -26,6 +26,13 @@ footer p {font-size: 12px;}
 /*.content-title { margin-bottom: 30px; }*/
 .article a:hover { text-decoration: none; } 
 
+div .copyright-claim {
+    background-color: #FBFBFB;
+}
+span .copyright-claim {
+    padding: 1px 15px;
+    display: block;
+}
 .copyright-claim p {
     font-size:12px;
     vertical-align:text-bottom;
