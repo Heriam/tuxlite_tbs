@@ -23,7 +23,7 @@ footer p {font-size: 12px;}
 
 /* Styling for articles */
 .article { padding-bottom:20px; padding-right: 40px; }
-.content-title { margin-bottom: 30px; }
+/*.content-title { margin-bottom: 30px; }*/
 .article a:hover { text-decoration: none; } 
 
 
