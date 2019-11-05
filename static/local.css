@@ -26,14 +26,14 @@ footer p {font-size: 12px;}
 /*.content-title { margin-bottom: 30px; }*/
 .article a:hover { text-decoration: none; } 
 
-div .copyright-claim {
+.copyright-claim {
     background-color: #FBFBFB;
 }
-span .copyright-claim {
+.copyright-claim span {
     padding: 1px 15px;
     display: block;
 }
-.copyright-claim p {
+.copyright-claim span p {
     font-size:12px;
     vertical-align:text-bottom;
     color: #4d4d4d;
